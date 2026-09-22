@@ -1,0 +1,8 @@
+{
+  "name": "NaC \u2014 Age of Dragons",
+  "short_name": "NaC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0a08",
+  "theme_color": "#0b0a08"
+}

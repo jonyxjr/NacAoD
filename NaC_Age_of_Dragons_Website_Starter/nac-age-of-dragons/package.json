@@ -1,0 +1,22 @@
+{
+  "name": "nac-age-of-dragons",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@11",
+  "scripts": {
+    "dev": "npm --workspace apps/web run dev",
+    "build": "npm --workspace apps/web run build",
+    "preview": "npm --workspace apps/web run preview",
+    "lint": "npm --workspace apps/web run lint",
+    "typecheck": "npm --workspace apps/web run typecheck",
+    "test": "npm --workspace apps/web run test",
+    "test:e2e": "npm --workspace apps/web run test:e2e"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --nac-bg: #0b0a08;
+  --nac-surface: #13110e;
+  --nac-surface-raised: #1b1712;
+  --nac-text: #f3eee6;
+  --nac-muted: #a8a097;
+  --nac-metal: #c9a86a;
+  --nac-ember: #d66b3d;
+  --nac-cool: #7ea6d6;
+  --nac-success: #78b879;
+  --nac-warning: #d0a85c;
+  --nac-danger: #c95f5f;
+}

@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import './tokens.css';
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color-scheme: dark;
+  background: var(--nac-bg);
+  color: var(--nac-text);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--nac-bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 15% 0%, rgba(201, 168, 106, 0.08), transparent 30rem),
+    radial-gradient(circle at 85% 10%, rgba(214, 107, 61, 0.06), transparent 28rem),
+    var(--nac-bg);
+}
+
+.font-display {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
